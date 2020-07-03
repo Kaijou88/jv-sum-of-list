@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 
 public class Main {
     private static final Logger LOGGER = Logger.getLogger(Main.class);
-    private static final int TOTAL_NUMBER = 1_000_00;
+    private static final int TOTAL_NUMBER = 1_000_000;
     private static final int THREADS = 10;
 
     public static void main(String[] args) throws InterruptedException {

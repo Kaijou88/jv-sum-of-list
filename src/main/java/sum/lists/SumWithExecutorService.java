@@ -9,10 +9,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class SumWithExecutorService {
-    private static final ExecutorService executor = Executors.newCachedThreadPool();
 
     public static long getSumWithExecutorService(List list, int amountOfThreads)
                                                             throws InterruptedException {
+        ExecutorService executor = Executors.newCachedThreadPool();
         int listSize = list.size();
         int numberOfSubLists = listSize / amountOfThreads;
 
