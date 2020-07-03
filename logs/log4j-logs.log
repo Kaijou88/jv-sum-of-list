@@ -1,0 +1,2 @@
+2020-07-03 17:17:05 INFO  Main:15 - Sum using ExecutorService = 5004872
+2020-07-03 17:17:05 INFO  Main:18 - Sum using ForkJoin = 5004872
